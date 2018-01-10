@@ -1,0 +1,189 @@
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 50  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00     1054894  89239      42.20
+ 41600           10.00      321394             12.86
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 150  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      580762 651828      69.69
+ 41600           10.00      316060             37.93
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 250  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      396542 866748      79.28
+ 41600           10.00      202238             40.43
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 350  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      301153 303522      84.32
+ 41600           10.00      223488             62.57
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 450  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      242876 446634      87.44
+ 41600           10.00      239379             86.18
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 550  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      203870 540414      89.66
+ 41600           10.00      203870             89.66
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 650  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      175322 591287      91.16
+ 41600           10.00      175290             91.14
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 750  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      153953 628773      92.35
+ 41600           10.00      153887             92.32
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 850  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      137235 909851      93.32
+ 41600           10.00      137176             93.28
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 950  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      123890 1115661      94.16
+ 41600           10.00      123890             94.16
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1050  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      113035 1276112      94.93
+ 41600           10.00      112967             94.88
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1150  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00      103601 1305044      95.31
+ 41600           10.00      103559             95.27
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1250  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00       96013 1319193      95.99
+ 41600           10.00       95992             95.97
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1350  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00       89111 1310680      96.24
+ 41600           10.00       89111             96.24
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1450  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00       83262 1310481      96.58
+ 41600           10.00       83245             96.56
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1550  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00        2138 1309134       2.65
+ 41600           10.00        2138              2.65
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1650  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00        1900 1276955       2.51
+ 41600           10.00        1889              2.49
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1750  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00        1609 1290405       2.25
+ 41600           10.00        1603              2.24
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1850  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00        1402 1298032       2.07
+ 41600           10.00        1402              2.07
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 1950  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00        1535 1310565       2.39
+ 41600           10.00        1535              2.39
+
+./netperf -t UDP_STREAM -H 192.168.0.1 -- -P 12866 -r 2050  -m 3100
+MIGRATED UDP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Socket  Message  Elapsed      Messages                
+Size    Size     Time         Okay Errors   Throughput
+bytes   bytes    secs            #      #   10^6bits/sec
+
+  9216    3100   10.00        1538 1296740       2.52
+ 41600           10.00        1538              2.52
+

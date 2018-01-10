@@ -1,0 +1,184 @@
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380    300 131072    10.00       7.17   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 1300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   1300 131072    10.00       0.33   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 2300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   2300 131072    10.00      48.45   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 3300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   3300 131072    10.00      66.26   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 4300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   4300 131072    10.01      80.75   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 5300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   5300 131072    10.01      89.49   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 6300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   6300 131072    10.00      90.69   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 7300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   7300 131072    10.01      91.80   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 8300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   8300 131072    10.00      91.40   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 9300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380   9300 131072    10.01      91.60   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 10300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  10300 131072    10.01      92.28   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 11300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  11300 131072    10.00      93.07   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 12300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  12300 131072    10.00      93.04   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 13300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  13300 131072    10.01      93.26   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 14300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  14300 131072    10.00      93.44   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 15300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  15300 131072    10.00      93.22   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 16300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  16300 131072    10.00      92.94   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 17300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  17300 131072    10.00      93.31   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 18300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  18300 131072    10.00      93.05   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 19300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  19300 131072    10.01      93.51   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 20300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  20300 131072    10.00      93.69   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 21300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  21300 131072    10.00      93.69   
+./netperf -t TCP_STREAM -H 192.168.0.1 -- -P 12866 -s 22300  -m 131072
+MIGRATED TCP STREAM TEST from (null) (0.0.0.0) port 12866 AF_INET to (null) () port 12866 AF_INET
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 87380  22300 131072    10.01      93.43   
